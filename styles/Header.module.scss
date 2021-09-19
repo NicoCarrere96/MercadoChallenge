@@ -1,0 +1,38 @@
+$primary-color: #ffe600;
+
+.container {
+  background-color: $primary-color;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  margin-left: 27px;
+  width: 60%;
+}
+
+.input {
+  border: 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  flex-grow: 2;
+  width: 100%;
+
+  ::placeholder {
+    font-size: 18px;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.btnSearch {
+  border: 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  width: 50px;
+}

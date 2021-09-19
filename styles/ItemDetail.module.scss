@@ -1,0 +1,57 @@
+.container {
+  background-color: #fff;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 4px;
+  .top {
+    display: flex;
+    flex-direction: row;
+  }
+  .image {
+    width: 680px;
+    height: 680px;
+  }
+  .title {
+    font-size: 24px;
+    margin-top: 16px;
+  }
+  .price {
+    margin: 32px 0;
+    .amount {
+      font-size: 46px;
+    }
+    .decimals {
+      font-size: 12px;
+    }
+  }
+
+  .buyBtn {
+    background-color: #3483fa;
+    color: #fff;
+    margin-right: 32px;
+    width: -webkit-fill-available;
+    padding: 8px;
+    border-radius: 4px;
+    border: 0;
+    &:hover{
+      background-color: #3480faab;
+    }
+    &:active{
+      background-color: #2455a3;
+    }
+  }
+  .state {
+    margin-top: 32px;
+    font-size: 14px;
+  }
+  .descriptionTitle{
+      font-size: 28px;
+      margin: 32px;
+  }
+  .description{
+      color: #999;
+      margin: 0 32px 32px 32px;
+  }
+}
